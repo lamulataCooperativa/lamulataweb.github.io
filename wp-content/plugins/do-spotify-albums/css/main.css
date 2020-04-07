@@ -1,0 +1,164 @@
+/********************************************************************************
+* Admin Pages
+*********************************************************************************/
+
+.page-header
+{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold !important;
+    border: 1px solid #aaa;
+    border-radius: 6px 6px 0 0;
+    background: #ddd;
+}
+
+.page-container
+{
+    border: 1px solid #aaa;
+    border-top: 0px;
+    padding: 10px;
+
+}
+
+.do-form-label 
+{
+    font-weight: 700;
+}
+
+
+.nth-company
+{
+    position: relative;
+    right: 0px; 
+    top: 5px; 
+    font-size: 9pt;
+    font-weight: 200;
+}
+
+.nth-company a,
+.nth-company a:active,
+.nth-company a:visited
+{
+    color: #ddd;
+}
+
+.nth-company a:hover
+{
+    color: #fff;
+}
+
+.do-header-container
+{
+    background-color: #336699;
+    margin-left: -20px;
+    border-bottom: 2px solid #555;
+    box-shadow: 0px 3px 3px #888888;
+}
+
+.do-header
+{
+    color: #fff;
+    font-size: 18pt;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.do-footer
+{
+    background-color: #ddd;
+    margin-left: -20px;
+    border-top: 1px solid #bbb;
+    border-bottom: 2px solid #555;
+    box-shadow: 0px 3px 3px #888888;
+}
+
+.do-description
+{
+    padding: 20px;
+    font-size:  11pt;
+    padding-left: 20px;
+}
+
+.do-usage
+{
+    font-weight: bold; 
+    width:80px;
+    display: inline-block;
+}
+
+
+.do-description b
+{
+    color: #336699;
+}
+
+.do-description p
+{
+    color: #555;
+}
+
+.do-disclaimer
+{
+    padding-top: 20px;
+    font-size:  9pt;
+    color: #fff;
+    padding-left: 20px;
+}
+
+
+.do-btn-container
+{
+    padding-top: 20px;
+}
+
+.do-form-label
+{
+    padding-right: 20px;
+}
+
+
+
+/********************************************************************************
+* Spotify Album Styling
+*********************************************************************************/
+
+.album-container
+{
+    text-align: center;
+    padding: 20px;
+    width: 360px;
+    background-color: #fff;
+}
+
+.album-cover 
+{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px #000;
+}
+
+.album-cover-gradient {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.8) 100%);
+    background-image: linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.8) 100%);
+}
+
+.album-container ul
+{
+    text-align: left;
+}
+
+.album-container ul
+{
+    color: #336699;
+    font-weight: bold;
+}
